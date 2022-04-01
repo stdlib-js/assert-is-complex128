@@ -1,0 +1,42 @@
+{
+  "name": "@stdlib/assert-is-complex128",
+  "version": "0.0.0",
+  "description": "Test if a value is a 128-bit complex number.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/assert-is-complex128.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdassert",
+    "assertion",
+    "assert",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "is",
+    "iscomplex",
+    "complex128",
+    "128-bit",
+    "float64",
+    "double",
+    "double-precision",
+    "ieee754",
+    "type",
+    "check",
+    "validate",
+    "isvalid",
+    "test"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
