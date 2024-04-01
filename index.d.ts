@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,28 +16,29 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Complex128 } from '@stdlib/types/complex';
 
 /**
-* Test if a value is a 128-bit complex number.
+* Tests if a value is a 128-bit complex number.
 *
-* @module @stdlib/assert-is-complex128
+* @param value - value to test
+* @returns boolean indicating if a value is a 128-bit complex number
 *
 * @example
 * var Complex128 = require( '@stdlib/complex-float64' );
-* var isComplex128 = require( '@stdlib/assert-is-complex128' );
 *
 * var x = new Complex128( 4.0, 2.0 );
 *
 * var bool = isComplex128( x );
 * // returns true
 */
-
-// MODULES //
-
-var isComplex128 = require( './main.js' );
+declare function isComplex128( value: any ): value is Complex128;
 
 
 // EXPORTS //
 
-module.exports = isComplex128;
+export = isComplex128;
