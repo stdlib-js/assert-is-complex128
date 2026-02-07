@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+isComplex128 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-complex128/tags). For example,
+
+```javascript
 isComplex128 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128@v0.2.3-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var isComplex128 = require( 'path/to/vendor/umd/assert-is-complex128/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -98,7 +103,7 @@ var bool = isComplex128( x );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
